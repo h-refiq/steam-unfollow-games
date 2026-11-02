@@ -20,7 +20,7 @@ games and don't want to click "Unfollow" one by one.
 2. Open your profile's Games page, **Followed** tab:
    `https://steamcommunity.com/id/<YOUR_ID>/games?tab=followed`
 3. Press `F12` and open the **Console** tab.
-4. Copy the contents of [`unfollow-all.js`](./unfollow-all.js), paste it
+4. Copy the contents of [`unfollow-games.js`](./unfollow-games.js), paste it
    into the console and press Enter.
 5. Check that the first 3 games were unfollowed (default `LIMIT = 3`).
 6. Change `LIMIT = 3` to `LIMIT = Infinity` and run the script again to
